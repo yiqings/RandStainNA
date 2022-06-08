@@ -2,7 +2,7 @@
 
 This is the official implementation of the paper:
 
-"RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization" (MICCAI 2022)
+"RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization" (*MICCAI 2022*)
 
 Note that this repo is still in process.
 
@@ -26,18 +26,18 @@ The codes are organized as follows:
 
 ## 3. Set Up the Environmets
 Run 
-'''
+```
 pip install -r requirements.txt
-'''
+```
 to install the required libraries. Note that `opencv-python`, `pyyaml` and `scikit-image` are necessary for `RandStainNA`; while we use `fitter` for performing the statistic analysis in the pre-processing stage. 
 
 ## 4. Use RandStainNA as Data Augmentation
 
 Please refer to [`main.py`](./main.py) for using RandStainNA:
-'''
+```
 transforms_list = [
         RandStainNA(yaml_file='./CRC_LAB_randomTrue_n0.yaml', std_hyper=-0.3, probability=1.0,distribution='normal', is_train=True)
     ]
     
 transforms.Compose(transforms_list)
-'''
+```
