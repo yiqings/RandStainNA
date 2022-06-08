@@ -18,12 +18,12 @@ if __name__ == '__main__':
     # print(randstainna)
 
     # img_path_list = [
-    #     './images/origin/TUM-AEPINLNQ.png',
-    #     './images/origin/TUM-DFGFFNEY.png',
-    #     './images/origin/TUM-EWFNFSQL.png',
-    #     './images/origin/TUM-TCGA-CVATFAAT.png'
+    #     './visualization/origin/TUM-AEPINLNQ.png',
+    #     './visualization/origin/TUM-DFGFFNEY.png',
+    #     './visualization/origin/TUM-EWFNFSQL.png',
+    #     './visualization/origin/TUM-TCGA-CVATFAAT.png'
     # ]
-    # save_dir_path = './images/randstainna'
+    # save_dir_path = './visualization/randstainna'
     # if not os.path.exists(save_dir_path):
     #     os.mkdir(save_dir_path)
 

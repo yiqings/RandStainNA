@@ -3,9 +3,10 @@ import numpy as np
 from skimage import color
 from typing import Optional, Dict
 import yaml
+# ToDo: add documents
 
 class Dict2Class(object):
-      
+    # ToDo: Wrap into RandStainNA
     def __init__(
         self, 
         my_dict: Dict
@@ -15,6 +16,7 @@ class Dict2Class(object):
             setattr(self, key, my_dict[key])
             
 def get_yaml_data(yaml_file):
+    # ToDo: Wrap into RandStainNA
         file = open(yaml_file, 'r', encoding="utf-8")
         file_data = file.read()
         file.close()
@@ -24,10 +26,10 @@ def get_yaml_data(yaml_file):
         return data
     
 class RandStainNA(object):
-
+    # ToDo: support downloading yaml file from online if the path is not provided.
     def __init__(
         self, 
-        yaml_file: str,
+        yaml_file: str, 
         std_hyper: Optional[float] = 0, 
         distribution: Optional[str] = 'normal', 
         probability: Optional[float] = 1.0 ,
@@ -41,6 +43,7 @@ class RandStainNA(object):
         self.yaml_file = yaml_file
         cfg = get_yaml_data(self.yaml_file)
         c_s= cfg['color_space']
+        
         self._channel_avgs = {
             'avg' : [cfg[c_s[0]]['avg']['mean'], cfg[c_s[1]]['avg']['mean'], cfg[c_s[2]]['avg']['mean']],
             'std' : [cfg[c_s[0]]['avg']['std'], cfg[c_s[1]]['avg']['std'], cfg[c_s[2]]['avg']['std']]
@@ -49,8 +52,10 @@ class RandStainNA(object):
             'avg' : [cfg[c_s[0]]['std']['mean'], cfg[c_s[1]]['std']['mean'], cfg[c_s[2]]['std']['mean']],
             'std' : [cfg[c_s[0]]['std']['std'], cfg[c_s[1]]['std']['std'], cfg[c_s[2]]['std']['std']],
         }
+        
         self.channel_avgs = Dict2Class(self._channel_avgs)
         self.channel_stds = Dict2Class(self._channel_stds)
+        
         self.color_space = cfg['color_space']
         self.p = probability
         self.std_adjust = std_hyper 
