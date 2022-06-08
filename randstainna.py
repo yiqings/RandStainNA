@@ -3,7 +3,6 @@ import numpy as np
 from skimage import color
 from typing import Optional, Dict
 import yaml
-import os
 
 class Dict2Class(object):
       
