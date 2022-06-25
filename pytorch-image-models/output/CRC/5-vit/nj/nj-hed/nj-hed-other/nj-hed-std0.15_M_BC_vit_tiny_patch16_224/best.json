@@ -1,0 +1,11 @@
+{
+  "best_epoch": 49,
+  "best_val": 79.38,
+  "best_val_test": 72.73,
+  "best_val_f1": 0.693,
+  "best_val_auc": 0.945,
+  "best_epoch_test": 46,
+  "best_test_acc": 73.14,
+  "best_test_f1": 0.694,
+  "best_test_auc": 0.946
+}
