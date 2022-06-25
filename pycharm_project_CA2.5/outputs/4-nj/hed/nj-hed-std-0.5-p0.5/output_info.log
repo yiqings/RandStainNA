@@ -1,0 +1,91 @@
+2022-02-26 08:57:52,457 - train - INFO - Begin training.
+2022-02-26 08:59:13,566 - train - INFO - epoch num val: 1 -- Loss: 2.5918 -- Dice : 0.4115 -- Iou : 0.2671 --  Boundary acc : 0.3294000029563904
+2022-02-26 08:59:23,105 - train - INFO - epoch num test: 1 -- Loss: 2.33 -- Dice : 0.3522 -- Iou : 0.2164 --  Boundary acc : 0.32019999623298645
+
+2022-02-26 09:00:44,725 - train - INFO - epoch num val: 2 -- Loss: 2.5421 -- Dice : 0.4114 -- Iou : 0.267 --  Boundary acc : 0.3359000086784363
+2022-02-26 09:00:54,209 - train - INFO - epoch num test: 2 -- Loss: 2.3012 -- Dice : 0.3522 -- Iou : 0.2164 --  Boundary acc : 0.32199999690055847
+
+2022-02-26 09:02:14,628 - train - INFO - epoch num val: 3 -- Loss: 2.5921 -- Dice : 0.4184 -- Iou : 0.2724 --  Boundary acc : 0.3352000117301941
+2022-02-26 09:02:24,113 - train - INFO - epoch num test: 3 -- Loss: 2.2361 -- Dice : 0.3546 -- Iou : 0.2179 --  Boundary acc : 0.3449999988079071
+
+2022-02-26 09:03:44,494 - train - INFO - epoch num val: 4 -- Loss: 2.3085 -- Dice : 0.6013 -- Iou : 0.4585 --  Boundary acc : 0.3522000014781952
+2022-02-26 09:03:54,030 - train - INFO - epoch num test: 4 -- Loss: 1.9888 -- Dice : 0.6994 -- Iou : 0.5323 --  Boundary acc : 0.33169999718666077
+
+2022-02-26 09:05:14,255 - train - INFO - epoch num val: 5 -- Loss: 2.2791 -- Dice : 0.6451 -- Iou : 0.4928 --  Boundary acc : 0.35350000858306885
+2022-02-26 09:05:23,742 - train - INFO - epoch num test: 5 -- Loss: 2.0116 -- Dice : 0.6773 -- Iou : 0.5069 --  Boundary acc : 0.3296000063419342
+
+2022-02-26 09:06:44,525 - train - INFO - epoch num val: 6 -- Loss: 2.244 -- Dice : 0.6526 -- Iou : 0.5061 --  Boundary acc : 0.3555999994277954
+2022-02-26 09:06:54,053 - train - INFO - epoch num test: 6 -- Loss: 2.0436 -- Dice : 0.7105 -- Iou : 0.5442 --  Boundary acc : 0.3190000057220459
+
+2022-02-26 09:08:14,924 - train - INFO - epoch num val: 7 -- Loss: 2.1935 -- Dice : 0.6827 -- Iou : 0.5277 --  Boundary acc : 0.35830000042915344
+2022-02-26 09:08:24,400 - train - INFO - epoch num test: 7 -- Loss: 2.047 -- Dice : 0.6882 -- Iou : 0.5216 --  Boundary acc : 0.322299987077713
+
+2022-02-26 09:09:45,092 - train - INFO - epoch num val: 8 -- Loss: 2.2069 -- Dice : 0.679 -- Iou : 0.5293 --  Boundary acc : 0.362199991941452
+2022-02-26 09:09:54,554 - train - INFO - epoch num test: 8 -- Loss: 1.9454 -- Dice : 0.7112 -- Iou : 0.5447 --  Boundary acc : 0.33629998564720154
+
+2022-02-26 09:11:14,910 - train - INFO - epoch num val: 9 -- Loss: 2.2137 -- Dice : 0.6748 -- Iou : 0.5291 --  Boundary acc : 0.3668000102043152
+2022-02-26 09:11:24,421 - train - INFO - epoch num test: 9 -- Loss: 1.8919 -- Dice : 0.7236 -- Iou : 0.5597 --  Boundary acc : 0.34940001368522644
+
+2022-02-26 09:12:45,050 - train - INFO - epoch num val: 10 -- Loss: 2.1906 -- Dice : 0.6774 -- Iou : 0.5293 --  Boundary acc : 0.36489999294281006
+2022-02-26 09:12:54,529 - train - INFO - epoch num test: 10 -- Loss: 1.926 -- Dice : 0.7088 -- Iou : 0.5424 --  Boundary acc : 0.3411000072956085
+
+2022-02-26 09:14:15,115 - train - INFO - epoch num val: 11 -- Loss: 2.1674 -- Dice : 0.6912 -- Iou : 0.5429 --  Boundary acc : 0.3698999881744385
+2022-02-26 09:14:24,563 - train - INFO - epoch num test: 11 -- Loss: 1.9035 -- Dice : 0.7189 -- Iou : 0.5542 --  Boundary acc : 0.3474000096321106
+
+2022-02-26 09:15:45,160 - train - INFO - epoch num val: 12 -- Loss: 2.1446 -- Dice : 0.7033 -- Iou : 0.5566 --  Boundary acc : 0.37220001220703125
+2022-02-26 09:15:54,645 - train - INFO - epoch num test: 12 -- Loss: 1.8617 -- Dice : 0.7283 -- Iou : 0.5662 --  Boundary acc : 0.35589998960494995
+
+2022-02-26 09:17:15,536 - train - INFO - epoch num val: 13 -- Loss: 2.1746 -- Dice : 0.686 -- Iou : 0.5428 --  Boundary acc : 0.3725999891757965
+2022-02-26 09:17:25,014 - train - INFO - epoch num test: 13 -- Loss: 1.8677 -- Dice : 0.7349 -- Iou : 0.5712 --  Boundary acc : 0.3529999852180481
+
+2022-02-26 09:18:45,625 - train - INFO - epoch num val: 14 -- Loss: 2.1156 -- Dice : 0.7117 -- Iou : 0.5644 --  Boundary acc : 0.3698999881744385
+2022-02-26 09:18:55,139 - train - INFO - epoch num test: 14 -- Loss: 1.937 -- Dice : 0.7198 -- Iou : 0.5575 --  Boundary acc : 0.3370000123977661
+
+2022-02-26 09:20:15,595 - train - INFO - epoch num val: 15 -- Loss: 2.1227 -- Dice : 0.7104 -- Iou : 0.559 --  Boundary acc : 0.3747999966144562
+2022-02-26 09:20:25,152 - train - INFO - epoch num test: 15 -- Loss: 1.8904 -- Dice : 0.7069 -- Iou : 0.5444 --  Boundary acc : 0.35199999809265137
+
+2022-02-26 09:21:45,596 - train - INFO - epoch num val: 16 -- Loss: 2.165 -- Dice : 0.6775 -- Iou : 0.5375 --  Boundary acc : 0.37290000915527344
+2022-02-26 09:21:55,046 - train - INFO - epoch num test: 16 -- Loss: 1.8701 -- Dice : 0.7431 -- Iou : 0.581 --  Boundary acc : 0.34549999237060547
+
+2022-02-26 09:23:15,958 - train - INFO - epoch num val: 17 -- Loss: 2.105 -- Dice : 0.71 -- Iou : 0.558 --  Boundary acc : 0.36809998750686646
+2022-02-26 09:23:25,435 - train - INFO - epoch num test: 17 -- Loss: 2.0036 -- Dice : 0.6944 -- Iou : 0.5322 --  Boundary acc : 0.328000009059906
+
+2022-02-26 09:24:46,990 - train - INFO - epoch num val: 18 -- Loss: 2.1018 -- Dice : 0.7159 -- Iou : 0.5697 --  Boundary acc : 0.3781999945640564
+2022-02-26 09:24:56,857 - train - INFO - epoch num test: 18 -- Loss: 1.8559 -- Dice : 0.7255 -- Iou : 0.5642 --  Boundary acc : 0.3555999994277954
+
+2022-02-26 09:26:19,075 - train - INFO - epoch num val: 19 -- Loss: 2.0857 -- Dice : 0.7197 -- Iou : 0.5742 --  Boundary acc : 0.38029998540878296
+2022-02-26 09:26:28,905 - train - INFO - epoch num test: 19 -- Loss: 1.8636 -- Dice : 0.7259 -- Iou : 0.5638 --  Boundary acc : 0.3522999882698059
+
+2022-02-26 09:27:52,582 - train - INFO - epoch num val: 20 -- Loss: 2.0747 -- Dice : 0.7239 -- Iou : 0.5749 --  Boundary acc : 0.37779998779296875
+2022-02-26 09:28:02,278 - train - INFO - epoch num test: 20 -- Loss: 1.885 -- Dice : 0.7254 -- Iou : 0.5644 --  Boundary acc : 0.3465999960899353
+
+2022-02-26 09:29:25,507 - train - INFO - epoch num val: 21 -- Loss: 2.071 -- Dice : 0.7199 -- Iou : 0.5731 --  Boundary acc : 0.38019999861717224
+2022-02-26 09:29:35,865 - train - INFO - epoch num test: 21 -- Loss: 1.9014 -- Dice : 0.7229 -- Iou : 0.5616 --  Boundary acc : 0.3449999988079071
+
+2022-02-26 09:31:04,677 - train - INFO - epoch num val: 22 -- Loss: 2.1076 -- Dice : 0.707 -- Iou : 0.5631 --  Boundary acc : 0.38019999861717224
+2022-02-26 09:31:16,167 - train - INFO - epoch num test: 22 -- Loss: 1.8416 -- Dice : 0.727 -- Iou : 0.5654 --  Boundary acc : 0.3562999963760376
+
+2022-02-26 09:32:42,680 - train - INFO - epoch num val: 23 -- Loss: 2.065 -- Dice : 0.7225 -- Iou : 0.5771 --  Boundary acc : 0.37959998846054077
+2022-02-26 09:32:53,187 - train - INFO - epoch num test: 23 -- Loss: 1.9022 -- Dice : 0.7179 -- Iou : 0.5573 --  Boundary acc : 0.3427000045776367
+
+2022-02-26 09:34:21,623 - train - INFO - epoch num val: 24 -- Loss: 2.0791 -- Dice : 0.7165 -- Iou : 0.5688 --  Boundary acc : 0.38089999556541443
+2022-02-26 09:34:32,383 - train - INFO - epoch num test: 24 -- Loss: 1.8699 -- Dice : 0.7277 -- Iou : 0.5669 --  Boundary acc : 0.34880000352859497
+
+2022-02-26 09:36:01,500 - train - INFO - epoch num val: 25 -- Loss: 2.0922 -- Dice : 0.7151 -- Iou : 0.572 --  Boundary acc : 0.3849000036716461
+2022-02-26 09:36:13,052 - train - INFO - epoch num test: 25 -- Loss: 1.8101 -- Dice : 0.7401 -- Iou : 0.58 --  Boundary acc : 0.3637000024318695
+
+2022-02-26 09:37:39,523 - train - INFO - epoch num val: 26 -- Loss: 2.0531 -- Dice : 0.7275 -- Iou : 0.5803 --  Boundary acc : 0.3808000087738037
+2022-02-26 09:37:50,847 - train - INFO - epoch num test: 26 -- Loss: 1.9183 -- Dice : 0.7066 -- Iou : 0.5451 --  Boundary acc : 0.3416999876499176
+
+2022-02-26 09:39:17,275 - train - INFO - epoch num val: 27 -- Loss: 2.0802 -- Dice : 0.7171 -- Iou : 0.5749 --  Boundary acc : 0.383899986743927
+2022-02-26 09:39:27,413 - train - INFO - epoch num test: 27 -- Loss: 1.8108 -- Dice : 0.741 -- Iou : 0.5809 --  Boundary acc : 0.3603000044822693
+
+2022-02-26 09:40:55,689 - train - INFO - epoch num val: 28 -- Loss: 2.0547 -- Dice : 0.7278 -- Iou : 0.5824 --  Boundary acc : 0.3846000134944916
+2022-02-26 09:41:06,583 - train - INFO - epoch num test: 28 -- Loss: 1.8521 -- Dice : 0.7228 -- Iou : 0.563 --  Boundary acc : 0.3529999852180481
+
+2022-02-26 09:42:34,705 - train - INFO - epoch num val: 29 -- Loss: 2.0485 -- Dice : 0.7293 -- Iou : 0.5842 --  Boundary acc : 0.3862999975681305
+2022-02-26 09:42:45,615 - train - INFO - epoch num test: 29 -- Loss: 1.8385 -- Dice : 0.7302 -- Iou : 0.5704 --  Boundary acc : 0.35510000586509705
+
+2022-02-26 09:44:14,791 - train - INFO - epoch num val: 30 -- Loss: 2.0345 -- Dice : 0.7318 -- Iou : 0.5861 --  Boundary acc : 0.3853999972343445
+2022-02-26 09:44:24,772 - train - INFO - epoch num test: 30 -- Loss: 1.8557 -- Dice : 0.7265 -- Iou : 0.5667 --  Boundary acc : 0.35249999165534973
+
