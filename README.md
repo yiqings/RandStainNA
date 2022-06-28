@@ -2,6 +2,8 @@
 
 Implementation for the paper: "RandStainNA: Learning Stain-Agnostic Features from Histology Slides by Bridging Stain Augmentation and Normalization" [MICCAI 2022]
 
+Paper link: https://arxiv.org/abs/2206.12694
+
 ## 1. Method Overview
 RandStainNA is a augmentation scheme to train a stain agnostic deep learning model specifically for **histology** analysis. 
 It unifies *Stain Normalization* and *Stain Augmentation* by constraining variable stain styles in a practicable range. 
