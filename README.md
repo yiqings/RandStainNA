@@ -5,10 +5,14 @@ Implementation for the paper: "RandStainNA: Learning Stain-Agnostic Features fro
 Paper link: https://arxiv.org/abs/2206.12694
 
 ## 1. Method Overview
+
+![The overall pipeline of the proposed RandStainNA that fuses stain normalization and stain augmentation.](img/framework.png)
+
 RandStainNA is a augmentation scheme to train a stain agnostic deep learning model specifically for **histology** analysis. 
 It unifies *Stain Normalization* and *Stain Augmentation* by constraining variable stain styles in a practicable range. 
 The RandStainNA is applicable to stain normalization in a collection of color spaces i.e., HED, HSV, LAB.
 
+![The illustrative patch examples of (a) raw images, (b) stain-normalized images, (c) stain-augmented images, (d) images processed with the proposed RandStainNA](img/vis.png)
 
 ## 2. Code Organizations
 The codes are organized as follows:
