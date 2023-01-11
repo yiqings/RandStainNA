@@ -150,8 +150,8 @@ class RandStainNA(object):
                     high=self.channel_avgs.avg[idx] + 3 * self.channel_avgs.std[idx],
                 )
                 tar_std = np.random.uniform(
-                    low=self.channel_avgs.avg[idx] - 3 * self.channel_avgs.std[idx],
-                    high=self.channel_avgs.avg[idx] + 3 * self.channel_avgs.std[idx],
+                    low=self.channel_stds.avg[idx] - 3 * self.channel_stds.std[idx],
+                    high=self.channel_stds.avg[idx] + 3 * self.channel_stds.std[idx],
                 )
 
                 tar_avgs.append(tar_avg)
